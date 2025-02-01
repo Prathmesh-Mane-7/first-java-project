@@ -6,6 +6,11 @@ class Calculator{
     public int sub(int a,int b){
         return a-b;
     }
+
+    
+    public int mul(int a,int b){
+        return a*b;
+    }
 }
 
 public class CalculatorTest {
@@ -16,5 +21,6 @@ public class CalculatorTest {
 
         System.out.println("result : " + calc.sub(10,20));
 
+        System.out.println("result : " + calc.mul(10,20));
     }
 }
